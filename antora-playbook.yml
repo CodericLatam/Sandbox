@@ -1,12 +1,12 @@
 site:
-  title: Coderic Documentación
+  title: The Sandbox Project
   start_page: ROOT::index.adoc
   robots: disallow
 content:
   sources: 
   - url: .
     branches: gh-pages
-    start_path: ROOT
+    start_path: docs/ROOT
 
 ui: 
   bundle:
@@ -14,7 +14,7 @@ ui:
     snapshot: true
 asciidoc:
   attributes:
-    page-component-sort-order: ROOT,development,crowdfunding,coworking,freelancers,learning,community
+    page-component-sort-order: ROOT
 antora:
   extensions:
   - '@antora/lunr-extension'
